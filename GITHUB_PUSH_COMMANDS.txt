@@ -1,0 +1,36 @@
+# Commands to Push to GitHub
+
+# 1. Initialize Git (if not already done)
+git init
+
+# 2. Check status
+git status
+
+# 3. Add all files (.env will be excluded by .gitignore)
+git add .
+
+# 4. Commit
+git commit -m "Premier League RAG Assistant - Complete Implementation"
+
+# 5. Add remote (REPLACE YOUR-USERNAME with your actual GitHub username)
+git remote add origin https://github.com/YOUR-USERNAME/premier-league-rag-assistant.git
+
+# 6. Set main branch
+git branch -M main
+
+# 7. Push to GitHub
+git push -u origin main
+
+# --- Alternative: If you already have a remote ---
+# Check current remote
+git remote -v
+
+# Update remote URL if needed
+git remote set-url origin https://github.com/YOUR-USERNAME/premier-league-rag-assistant.git
+
+# Push
+git push -u origin main
+
+# --- Verify .env is NOT included ---
+git ls-files | Select-String ".env"
+# Should return nothing (empty result means .env is properly ignored)
