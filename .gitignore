@@ -50,6 +50,9 @@ htmlcov/
 # Logs
 *.log
 
+# Extra folder (documentation backups)
+Extra/
+
 # Database
 *.db
 *.sqlite
