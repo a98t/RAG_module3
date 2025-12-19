@@ -71,12 +71,18 @@ class RAGPipeline:
             
             print(f"✅ Found {len(results)} relevant documents")
             
-            # Step 3: Prepare documents for LLM
+            # Step 3: Prepare documents for LLM and evaluation
             context_docs = []
             for result in results:
+                # Include both 'id' and 'doc_id' for compatibility
+                doc_id_value = result.get("doc_id", "")
                 context_docs.append({
+                    "id": doc_id_value,  # For evaluation script
+                    "doc_id": doc_id_value,  # Keep original key
                     "title": result["title"],
-                    "content": result["content"]
+                    "content": result["content"],
+                    "topic": result.get("topic", ""),
+                    "similarity": result.get("similarity", 0.0)
                 })
             
             # Step 4: Generate answer using LLM with context

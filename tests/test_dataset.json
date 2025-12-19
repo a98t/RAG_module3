@@ -1,0 +1,204 @@
+{
+  "test_cases": [
+    {
+      "id": "q001",
+      "question": "When was the Premier League founded?",
+      "category": "factual",
+      "expected_answer": "1992",
+      "relevant_doc_ids": ["doc_001"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q002",
+      "question": "How many teams started in the Premier League originally?",
+      "category": "factual",
+      "expected_answer": "22 teams, later reduced to 20",
+      "relevant_doc_ids": ["doc_001"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q003",
+      "question": "Who scored the dramatic title-winning goal for Manchester City in 2012?",
+      "category": "factual",
+      "expected_answer": "Sergio Agüero",
+      "relevant_doc_ids": ["doc_006"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q004",
+      "question": "What was Arsenal's unbeaten season record?",
+      "category": "factual",
+      "expected_answer": "26 wins and 12 draws in 2003-04",
+      "relevant_doc_ids": ["doc_007"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q005",
+      "question": "What were Leicester City's odds to win the Premier League in 2015-16?",
+      "category": "factual",
+      "expected_answer": "5000 to 1",
+      "relevant_doc_ids": ["doc_008"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q006",
+      "question": "How many points did Manchester City get in their centurions season?",
+      "category": "factual",
+      "expected_answer": "100 points in 2017-18",
+      "relevant_doc_ids": ["doc_010"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q007",
+      "question": "Explain what xG (expected goals) measures",
+      "category": "analytical",
+      "expected_answer": "Statistical metric that estimates probability of a shot becoming a goal based on factors like shot location, body part, and type of assist",
+      "relevant_doc_ids": ["doc_011"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q008",
+      "question": "What does PPDA measure in football analytics?",
+      "category": "analytical",
+      "expected_answer": "Passes Allowed Per Defensive Action - measures pressing intensity, low PPDA indicates aggressive pressing",
+      "relevant_doc_ids": ["doc_012"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q009",
+      "question": "Explain the 4-3-3 formation and its advantages",
+      "category": "analytical",
+      "expected_answer": "Formation with 4 defenders, 3 midfielders, 3 forwards. Wide forwards cut inside, full-backs overlap, allows high pressing and quick ball recovery",
+      "relevant_doc_ids": ["doc_016"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q010",
+      "question": "What is a false nine in football tactics?",
+      "category": "analytical",
+      "expected_answer": "A forward who drops into midfield instead of staying near center-backs, pulling defenders out of position and opening space for wingers or midfielders",
+      "relevant_doc_ids": ["doc_018"],
+      "difficulty": "hard"
+    },
+    {
+      "id": "q011",
+      "question": "How does the Premier League relegation system work?",
+      "category": "factual",
+      "expected_answer": "Bottom three clubs are relegated to Championship, replaced by top two Championship clubs and playoff winner",
+      "relevant_doc_ids": ["doc_002"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q012",
+      "question": "How many teams qualify for Champions League from Premier League?",
+      "category": "factual",
+      "expected_answer": "Typically top four teams",
+      "relevant_doc_ids": ["doc_004"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q013",
+      "question": "Compare gegenpressing to traditional defending",
+      "category": "comparative",
+      "expected_answer": "Gegenpressing involves immediate pressing after losing possession to win ball back in dangerous areas, unlike traditional defending which focuses on dropping back and organizing",
+      "relevant_doc_ids": ["doc_039", "doc_033"],
+      "difficulty": "hard"
+    },
+    {
+      "id": "q014",
+      "question": "What are the differences between low block and high pressing tactics?",
+      "category": "comparative",
+      "expected_answer": "Low block sits deep near own penalty area to deny space and counter-attacks quickly. High pressing involves applying pressure high up the pitch to win ball back quickly",
+      "relevant_doc_ids": ["doc_017", "doc_039"],
+      "difficulty": "hard"
+    },
+    {
+      "id": "q015",
+      "question": "How do heatmaps help in football analytics?",
+      "category": "analytical",
+      "expected_answer": "Visualize where players spend time on pitch, reveal positional roles like inverted full-backs or roaming playmakers, help identify weaknesses",
+      "relevant_doc_ids": ["doc_013"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q016",
+      "question": "What is the purpose of wearables and GPS tracking in football?",
+      "category": "analytical",
+      "expected_answer": "Collect data on distance covered, sprint counts, high-intensity efforts to manage fatigue, reduce injury risk, and individualize training",
+      "relevant_doc_ids": ["doc_015"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q017",
+      "question": "What makes Arsenal's 2003-04 season special?",
+      "category": "factual",
+      "expected_answer": "They went unbeaten the entire season with 26 wins and 12 draws, earning the nickname 'The Invincibles'",
+      "relevant_doc_ids": ["doc_007"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q018",
+      "question": "Who manages teams that use high pressing tactics?",
+      "category": "factual",
+      "expected_answer": "Jürgen Klopp is famous for gegenpressing and high-press tactics",
+      "relevant_doc_ids": ["doc_012", "doc_039"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q019",
+      "question": "What role do inverted full-backs play?",
+      "category": "analytical",
+      "expected_answer": "They tuck into central midfield when team has possession, creating numerical superiority in midfield while wingers stay wide",
+      "relevant_doc_ids": ["doc_034"],
+      "difficulty": "hard"
+    },
+    {
+      "id": "q020",
+      "question": "Why is home advantage important in Premier League?",
+      "category": "analytical",
+      "expected_answer": "Loud intense atmospheres with tens of thousands of supporters create psychological effect that can intimidate visiting players and boost home team performance",
+      "relevant_doc_ids": ["doc_021"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q021",
+      "question": "What is VAR and when was it introduced?",
+      "category": "factual",
+      "expected_answer": "Video Assistant Referee, introduced in 2019-20 season to review critical decisions like goals, penalties, red cards",
+      "relevant_doc_ids": ["doc_026"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "q022",
+      "question": "Who holds the Premier League single-season goal scoring record?",
+      "category": "factual",
+      "expected_answer": "Erling Haaland with 36 goals in 2022-23",
+      "relevant_doc_ids": ["doc_027"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q023",
+      "question": "What is Manchester United's treble achievement?",
+      "category": "factual",
+      "expected_answer": "Won Premier League, FA Cup, and Champions League in 1998-99 season with dramatic comeback in Champions League final",
+      "relevant_doc_ids": ["doc_030"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "q024",
+      "question": "What do progressive passing metrics measure?",
+      "category": "analytical",
+      "expected_answer": "Track passes that move ball significantly closer to opponent's goal (typically 10+ yards forward), identifying players who advance play and break defensive lines",
+      "relevant_doc_ids": ["doc_032"],
+      "difficulty": "hard"
+    },
+    {
+      "id": "q025",
+      "question": "What makes away supporters important in Premier League culture?",
+      "category": "analytical",
+      "expected_answer": "Their passionate traveling support, journeying hundreds of miles, creating incredible atmospheres even in hostile stadiums, considered backbone of English football culture",
+      "relevant_doc_ids": ["doc_035"],
+      "difficulty": "medium"
+    }
+  ]
+}

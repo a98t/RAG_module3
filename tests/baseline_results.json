@@ -1,0 +1,727 @@
+{
+  "total_questions": 25,
+  "individual_results": [
+    {
+      "question_id": "q001",
+      "question": "When was the Premier League founded?",
+      "answer": "The Premier League was founded in 1992.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_001",
+        "doc_025",
+        "doc_005",
+        "doc_002",
+        "doc_003"
+      ],
+      "expected_doc_ids": [
+        "doc_001"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.260590076446533
+      }
+    },
+    {
+      "question_id": "q002",
+      "question": "How many teams started in the Premier League originally?",
+      "answer": "The Premier League originally started with 22 teams.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_001",
+        "doc_003",
+        "doc_004",
+        "doc_002",
+        "doc_025"
+      ],
+      "expected_doc_ids": [
+        "doc_001"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.0650382041931152
+      }
+    },
+    {
+      "question_id": "q003",
+      "question": "Who scored the dramatic title-winning goal for Manchester City in 2012?",
+      "answer": "Sergio Agüero scored the dramatic title-winning goal for Manchester City in 2012 against Queens Park Rangers. This goal was scored deep into stoppage time and secured the title for Manchester City on goal difference, snatching it away from Manchester United.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_006",
+        "doc_010",
+        "doc_040",
+        "doc_030",
+        "doc_027"
+      ],
+      "expected_doc_ids": [
+        "doc_006"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.6809043884277344
+      }
+    },
+    {
+      "question_id": "q004",
+      "question": "What was Arsenal's unbeaten season record?",
+      "answer": "Arsenal's unbeaten season record during the 2003-04 Premier League season, known as 'The Invincibles,' included:\n\n- 26 wins\n- 12 draws\n- 0 losses\n- 90 points\n- A goal difference of +47\n\nThis achievement is regarded as one of the greatest team performances in modern football.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_007",
+        "doc_030",
+        "doc_010",
+        "doc_009",
+        "doc_028"
+      ],
+      "expected_doc_ids": [
+        "doc_007"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 3.028975009918213
+      }
+    },
+    {
+      "question_id": "q005",
+      "question": "What were Leicester City's odds to win the Premier League in 2015-16?",
+      "answer": "Leicester City started the 2015-16 season as 5000–1 outsiders with bookmakers to win the Premier League.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_008",
+        "doc_010",
+        "doc_003",
+        "doc_006",
+        "doc_002"
+      ],
+      "expected_doc_ids": [
+        "doc_008"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.0513498783111572
+      }
+    },
+    {
+      "question_id": "q006",
+      "question": "How many points did Manchester City get in their centurions season?",
+      "answer": "Manchester City achieved 100 points in their 2017–18 season, becoming the first Premier League team to reach that milestone.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_010",
+        "doc_006",
+        "doc_030",
+        "doc_007",
+        "doc_008"
+      ],
+      "expected_doc_ids": [
+        "doc_010"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 1.758138656616211
+      }
+    },
+    {
+      "question_id": "q007",
+      "question": "Explain what xG (expected goals) measures",
+      "answer": "Expected goals (xG) is a statistical metric that estimates the probability of a shot becoming a goal. It takes into account various factors such as:\n\n- Shot location\n- Body part used for the shot\n- Type of assist\n\nPremier League clubs utilize xG to evaluate performance beyond just the raw scorelines. A team that consistently outperforms its xG may be either finishing exceptionally well or benefiting from luck.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_011",
+        "doc_038",
+        "doc_031",
+        "doc_032",
+        "doc_015"
+      ],
+      "expected_doc_ids": [
+        "doc_011"
+      ],
+      "metrics": {
+        "answer_relevance": 0.9,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.913606882095337
+      }
+    },
+    {
+      "question_id": "q008",
+      "question": "What does PPDA measure in football analytics?",
+      "answer": "PPDA (Passes Allowed Per Defensive Action) measures the intensity of a team's pressing style in football analytics. A low PPDA indicates that a team allows few passes before applying defensive pressure, reflecting an aggressive pressing approach.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_012",
+        "doc_032",
+        "doc_013",
+        "doc_014",
+        "doc_015"
+      ],
+      "expected_doc_ids": [
+        "doc_012"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.3490450382232666
+      }
+    },
+    {
+      "question_id": "q009",
+      "question": "Explain the 4-3-3 formation and its advantages",
+      "answer": "The 4-3-3 formation is a widely used tactical setup in the Premier League that emphasizes width and fluidity in the attacking front line. \n\n**Key Features:**\n- **Wide Forwards:** The formation utilizes wide forwards who often cut inside to take shots on goal.\n- **Overlapping Full-Backs:** Full-backs in this system frequently overlap the wingers, providing additional crossing options and creating space.\n- **High Pressing:** The 4-3-3 allows teams to press high up the pitch, enabling them to quickly surround the ball when possession is lost.\n\n**Advantages:**\n- **Attacking Versatility:** The combination of wide play and overlapping runs creates multiple attacking avenues.\n- **Defensive Stability:** The three central midfielders can provide both defensive cover and support in attack, maintaining balance.\n- **Possession Control:** The formation facilitates quick transitions and ball recovery, enhancing a team's ability to control the game.\n\nOverall, the 4-3-3 formation is effective for teams looking to maintain attacking pressure while ensuring defensive solidity.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_016",
+        "doc_034",
+        "doc_019",
+        "doc_017",
+        "doc_033"
+      ],
+      "expected_doc_ids": [
+        "doc_016"
+      ],
+      "metrics": {
+        "answer_relevance": 0.9,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 5.575099468231201
+      }
+    },
+    {
+      "question_id": "q010",
+      "question": "What is a false nine in football tactics?",
+      "answer": "A false nine is a forward who frequently drops into midfield instead of staying near the opposition center-backs. This movement pulls defenders out of position and opens space for wingers or midfielders to run into. Several Premier League managers have used false nines to create unpredictable attacking patterns.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_018",
+        "doc_034",
+        "doc_017",
+        "doc_019",
+        "doc_016"
+      ],
+      "expected_doc_ids": [
+        "doc_018"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.245699167251587
+      }
+    },
+    {
+      "question_id": "q011",
+      "question": "How does the Premier League relegation system work?",
+      "answer": "The Premier League uses a promotion and relegation system with the English Football League Championship. Each season, the bottom three clubs in the Premier League are relegated to the Championship. In turn, the top two clubs from the Championship, along with the playoff winner, are promoted to the Premier League. This system maintains intense competition at both ends of the league table.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_002",
+        "doc_003",
+        "doc_004",
+        "doc_001",
+        "doc_008"
+      ],
+      "expected_doc_ids": [
+        "doc_002"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.7673256397247314
+      }
+    },
+    {
+      "question_id": "q012",
+      "question": "How many teams qualify for Champions League from Premier League?",
+      "answer": "Typically, the top four teams from the Premier League qualify for the UEFA Champions League.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_004",
+        "doc_002",
+        "doc_003",
+        "doc_001",
+        "doc_005"
+      ],
+      "expected_doc_ids": [
+        "doc_004"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.368281602859497
+      }
+    },
+    {
+      "question_id": "q013",
+      "question": "Compare gegenpressing to traditional defending",
+      "answer": "- **Gegenpressing**: This philosophy involves teams immediately pressing the opponent after losing possession to quickly regain the ball in dangerous areas. It requires exceptional fitness, tactical discipline, and aggressive positioning. Jürgen Klopp is noted for implementing this approach at Liverpool, leading to significant successes in the Premier League and Champions League.\n\n- **Traditional Defending**: In contrast, traditional defending often involves a more reactive approach, where teams may sit back and absorb pressure, focusing on maintaining a solid defensive shape rather than immediately pressing the opponent. This can include strategies like using a low defensive block to deny space and waiting for the right moment to counter-attack.\n\n- **Key Differences**:\n  - **Initiative**: Gegenpressing takes the initiative to regain possession quickly, while traditional defending may involve waiting for the opponent to make a mistake.\n  - **Aggression**: Gegenpressing is characterized by aggressive positioning and immediate pressure, whereas traditional defending may prioritize organization and stability over immediate ball recovery.\n  - **Transition**: In gegenpressing, the transition from defense to attack is rapid, aiming to exploit the opponent's disorganization. Traditional defending may involve slower transitions, focusing on structured counter-attacks after regaining possession. \n\nOverall, gegenpressing emphasizes proactive ball recovery and high intensity, while traditional defending often relies on reactive strategies and maintaining defensive solidity.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_039",
+        "doc_033",
+        "doc_017",
+        "doc_020",
+        "doc_012"
+      ],
+      "expected_doc_ids": [
+        "doc_039",
+        "doc_033"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.4,
+        "context_recall": 1.0,
+        "faithfulness": 0.7,
+        "response_time": 5.964883089065552
+      }
+    },
+    {
+      "question_id": "q014",
+      "question": "What are the differences between low block and high pressing tactics?",
+      "answer": "- **Low Block Tactics**:\n  - Teams employing a low block sit deep near their own penalty area to deny space to the opposition.\n  - This strategy is often used by underdog teams to frustrate possession-heavy opponents.\n  - When they regain possession, they typically launch fast counter-attacks using quick forwards and long passes into space.\n\n- **High Pressing Tactics**:\n  - High pressing involves applying defensive pressure aggressively and immediately after losing possession.\n  - Teams with a high pressing style, such as those managed by Jürgen Klopp, aim to win the ball back in dangerous areas.\n  - This approach requires exceptional fitness, tactical discipline, and aggressive positioning to prevent the opponent from organizing their attack.\n\nIn summary, low block tactics focus on defensive solidity and counter-attacking, while high pressing emphasizes aggressive ball recovery and immediate pressure on the opponent.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_012",
+        "doc_039",
+        "doc_017",
+        "doc_033",
+        "doc_020"
+      ],
+      "expected_doc_ids": [
+        "doc_017",
+        "doc_039"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.4,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 4.684446096420288
+      }
+    },
+    {
+      "question_id": "q015",
+      "question": "How do heatmaps help in football analytics?",
+      "answer": "Heatmaps help in football analytics by visualizing where players spend most of their time on the pitch. They show zones of high activity, which can reveal specific roles such as inverted full-backs or roaming playmakers. Coaches utilize heatmaps to adjust tactics and identify positional weaknesses in opponents, allowing for more informed strategic decisions during matches.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_013",
+        "doc_015",
+        "doc_014",
+        "doc_011",
+        "doc_032"
+      ],
+      "expected_doc_ids": [
+        "doc_013"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.8122243881225586
+      }
+    },
+    {
+      "question_id": "q016",
+      "question": "What is the purpose of wearables and GPS tracking in football?",
+      "answer": "The purpose of wearables and GPS tracking in football is to collect data on players during training and matches. This data includes total distance covered, sprint counts, and high-intensity efforts. Sports scientists use this information to manage player fatigue, reduce the risk of injury, and individualize training loads.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_015",
+        "doc_013",
+        "doc_023",
+        "doc_032",
+        "doc_014"
+      ],
+      "expected_doc_ids": [
+        "doc_015"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.573259115219116
+      }
+    },
+    {
+      "question_id": "q017",
+      "question": "What makes Arsenal's 2003-04 season special?",
+      "answer": "Arsenal's 2003-04 season is special because their team, nicknamed 'The Invincibles,' completed the entire Premier League season unbeaten. They recorded 26 wins and 12 draws, finishing with a total of 90 points and a +47 goal difference. This achievement is considered one of the greatest team performances in modern football.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_007",
+        "doc_030",
+        "doc_009",
+        "doc_010",
+        "doc_006"
+      ],
+      "expected_doc_ids": [
+        "doc_007"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.964660167694092
+      }
+    },
+    {
+      "question_id": "q018",
+      "question": "Who manages teams that use high pressing tactics?",
+      "answer": "Teams that use high pressing tactics are often managed by Jürgen Klopp, who is noted for bringing the gegenpressing philosophy to Liverpool. This approach emphasizes immediate pressing after losing possession to regain the ball in dangerous areas, reflecting an aggressive pressing style that has become mainstream in Premier League analysis.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_039",
+        "doc_033",
+        "doc_012",
+        "doc_020",
+        "doc_017"
+      ],
+      "expected_doc_ids": [
+        "doc_012",
+        "doc_039"
+      ],
+      "metrics": {
+        "answer_relevance": 0.7,
+        "retrieval_precision": 0.4,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 5.09373927116394
+      }
+    },
+    {
+      "question_id": "q019",
+      "question": "What role do inverted full-backs play?",
+      "answer": "Inverted full-backs play a crucial role in creating numerical superiority in midfield when their team has possession. They tuck into central midfield, which allows wingers to maintain width in attack. This tactical approach, popularized by Pep Guardiola at Manchester City with players like João Cancelo, helps teams control games through midfield dominance while still providing options on the flanks.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_034",
+        "doc_017",
+        "doc_019",
+        "doc_016",
+        "doc_020"
+      ],
+      "expected_doc_ids": [
+        "doc_034"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.71042799949646
+      }
+    },
+    {
+      "question_id": "q020",
+      "question": "Why is home advantage important in Premier League?",
+      "answer": "Home advantage is important in the Premier League for several reasons:\n\n- **Atmosphere**: Premier League stadiums are characterized by loud and intense atmospheres created by home supporters. This can boost the home team's performance and create a sense of intimidation for visiting players.\n\n- **Psychological Effect**: The presence of tens of thousands of supporters has a significant psychological impact, contributing to the home team's advantage during matches.\n\nOverall, the combination of a supportive crowd and the psychological edge provided by home fans plays a crucial role in the significance of home advantage in football.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_021",
+        "doc_003",
+        "doc_025",
+        "doc_035",
+        "doc_037"
+      ],
+      "expected_doc_ids": [
+        "doc_021"
+      ],
+      "metrics": {
+        "answer_relevance": 0.8,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 4.456057071685791
+      }
+    },
+    {
+      "question_id": "q021",
+      "question": "What is VAR and when was it introduced?",
+      "answer": "VAR, or Video Assistant Referee, is a system introduced to the Premier League in the 2019-20 season. It is used to review critical decisions such as goals, penalties, red cards, and mistaken identity, with the aim of improving accuracy in officiating.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_026",
+        "doc_009",
+        "doc_001",
+        "doc_015",
+        "doc_014"
+      ],
+      "expected_doc_ids": [
+        "doc_026"
+      ],
+      "metrics": {
+        "answer_relevance": 0.9,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 3.1618800163269043
+      }
+    },
+    {
+      "question_id": "q022",
+      "question": "Who holds the Premier League single-season goal scoring record?",
+      "answer": "Erling Haaland holds the Premier League single-season goal scoring record, having scored 36 goals in the 2022-23 season.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_027",
+        "doc_040",
+        "doc_010",
+        "doc_006",
+        "doc_003"
+      ],
+      "expected_doc_ids": [
+        "doc_027"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.31400990486145
+      }
+    },
+    {
+      "question_id": "q023",
+      "question": "What is Manchester United's treble achievement?",
+      "answer": "Manchester United completed an unprecedented treble in the 1998-99 season, winning the Premier League, FA Cup, and UEFA Champions League in the same season. Their Champions League final featured a dramatic comeback against Bayern Munich, where they scored two injury-time goals, marking one of football's greatest seasons. No other English club has matched this achievement.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_030",
+        "doc_006",
+        "doc_007",
+        "doc_010",
+        "doc_028"
+      ],
+      "expected_doc_ids": [
+        "doc_030"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 2.2115793228149414
+      }
+    },
+    {
+      "question_id": "q024",
+      "question": "What do progressive passing metrics measure?",
+      "answer": "Progressive passing metrics measure passes that move the ball significantly closer to the opponent's goal, typically at least 10 yards forward. These statistics help identify players who advance play effectively and break lines of pressure, making progressive passers highly valued for their ability to unlock defensive structures and create attacking opportunities.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_032",
+        "doc_012",
+        "doc_031",
+        "doc_015",
+        "doc_019"
+      ],
+      "expected_doc_ids": [
+        "doc_032"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 1.9319753646850586
+      }
+    },
+    {
+      "question_id": "q025",
+      "question": "What makes away supporters important in Premier League culture?",
+      "answer": "Away supporters are important in Premier League culture for several reasons:\n\n- **Passionate Support**: They are known for their passionate traveling support, often journeying hundreds of miles to follow their team. This dedication contributes significantly to the overall atmosphere of the matches.\n\n- **Atmosphere Creation**: With typical away ticket allocations around 3,000, these fans create incredible atmospheres even in hostile stadiums, which enhances the matchday experience for everyone involved.\n\n- **Cultural Backbone**: Their vocal support is considered the backbone of English football culture, highlighting the importance of away fans in maintaining the traditions and spirit of the game. \n\nOverall, the presence and enthusiasm of away supporters play a crucial role in the dynamics of Premier League matches.",
+      "retrieved_doc_count": 5,
+      "retrieved_doc_ids": [
+        "doc_035",
+        "doc_025",
+        "doc_021",
+        "doc_023",
+        "doc_022"
+      ],
+      "expected_doc_ids": [
+        "doc_035"
+      ],
+      "metrics": {
+        "answer_relevance": 1.0,
+        "retrieval_precision": 0.2,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "response_time": 3.5918729305267334
+      }
+    }
+  ],
+  "metrics": {
+    "answer_relevance": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9,
+      1.0,
+      0.9,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.7,
+      1.0,
+      0.8,
+      0.9,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "retrieval_precision": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.4,
+      0.4,
+      0.2,
+      0.2,
+      0.2,
+      0.4,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "context_recall": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "faithfulness": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.7,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "response_time": [
+      2.260590076446533,
+      2.0650382041931152,
+      2.6809043884277344,
+      3.028975009918213,
+      2.0513498783111572,
+      1.758138656616211,
+      2.913606882095337,
+      2.3490450382232666,
+      5.575099468231201,
+      2.245699167251587,
+      2.7673256397247314,
+      2.368281602859497,
+      5.964883089065552,
+      4.684446096420288,
+      2.8122243881225586,
+      2.573259115219116,
+      2.964660167694092,
+      5.09373927116394,
+      2.71042799949646,
+      4.456057071685791,
+      3.1618800163269043,
+      2.31400990486145,
+      2.2115793228149414,
+      1.9319753646850586,
+      3.5918729305267334
+    ]
+  },
+  "average_metrics": {
+    "answer_relevance": 0.968,
+    "retrieval_precision": 0.22400000000000003,
+    "context_recall": 1.0,
+    "faithfulness": 0.988,
+    "response_time": 3.061402750015259
+  }
+}
